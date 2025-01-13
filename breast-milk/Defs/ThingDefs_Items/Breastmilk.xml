@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>BreastMilk</defName>
+		<label>breast milk</label>
+		<description>Milk from a humanoid.</description>
+		<graphicData>
+			<texPath>Things/Items/Breastmilk</texPath>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<!-- Can be used like meat in recipes -->
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<Nutrition>0.2</Nutrition>
+			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought>AteBreastMilk</tasteThought>
+			<foodType>AnimalProduct, Fluid</foodType>
+			<babiesCanIngest>true</babiesCanIngest>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+		<allowedArchonexusCount>80</allowedArchonexusCount>
+		<possessionCount>5</possessionCount>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======= Basic quality thoughts ========= -->
+
+  <ThoughtDef>
+    <defName>AteBreastMilk</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>Drank breast milk</label>
+        <description>Can't get enough of the stuff!.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

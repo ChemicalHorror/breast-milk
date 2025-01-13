@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Breast milk</name>
+	<author>I-see</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>Isee.Breastmilk</packageId>
+	<description>
+		Adds a breast milk item into the game and a thought for chugging!
+	</description>
+</ModMetaData>
