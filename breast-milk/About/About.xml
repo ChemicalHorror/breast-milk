@@ -7,6 +7,6 @@
 	</supportedVersions>
 	<packageId>Isee.Breastmilk</packageId>
 	<description>
-		Adds a breast milk item into the game and a thought for chugging!
+		Adds a breast milk item for consumption and use as an ingredient! I recommend using the mod "Equal Milking" to harvest it from your pawns rather than spawning it through dev commands. Also adds a positive thought after consumption.
 	</description>
 </ModMetaData>

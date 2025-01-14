@@ -3,7 +3,7 @@
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>BreastMilk</defName>
 		<label>breast milk</label>
-		<description>Milk from a humanoid.</description>
+		<description>Breast milk from a humanoid.</description>
 		<graphicData>
 			<texPath>Things/Items/Breastmilk</texPath>
 		</graphicData>
@@ -25,14 +25,14 @@
 		</comps>
 		<ingestible>
 			<preferability>RawTasty</preferability>
-			<tasteThought>AteBreastMilk</tasteThought>
 			<foodType>AnimalProduct, Fluid</foodType>
 			<babiesCanIngest>true</babiesCanIngest>
+			<tasteThought>AteBreastMilk</tasteThought>
 		</ingestible>
 		<thingCategories>
 			<li>AnimalProductRaw</li>
 		</thingCategories>
-		<allowedArchonexusCount>80</allowedArchonexusCount>
+		<allowedArchonexusCount>60</allowedArchonexusCount>
 		<possessionCount>5</possessionCount>
 	</ThingDef>
 </Defs>
